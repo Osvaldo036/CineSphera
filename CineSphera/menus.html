@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="CineSphere.ico" type="image/x-icon">
+
+
+    <title>Menu</title>
+</head>
+
+<body id="body2">
+
+    <div id="section1">
+        <header>
+            <div id="logo">CineSphera</div>
+            <nav>
+                <a href="menus.html" id="restaurarInicio" onclick="restaurarRedireccionesInicio()">Inicio</a>
+                <div class="menu">
+                    <a href="#" id="mostrarPelicuas"   onclick="mostrarSoloPeliculas()">Películas</a>
+                   
+                </div>
+                <div class="menu">
+                    <a href="#"  onclick="mostrarSoloSeries()">Series</a>
+                    
+                </div>
+                
+            </nav>
+           
+        </header>
+    </div>
+    <script src="script.js"></script>
+  
+
+    <!-- Segunda sección con fondo diferente -->
+    <div id="transition-element"></div>
+    <div id="section2">
+        <div class="pelis-container">
+            <h1 class="tittle2 peliculas" >Peliculas</h1>
+     
+            <div class="row row-top">
+                
+                <div class="square s1" id="s1"></div>
+                <div class="square s2" id="s2"></div>
+                <div class="square s3" id="s3"></div>
+                <div class="square s4" id="s4"></div>
+                <div class="square s5" id="s5"></div>
+            </div>
+        
+           
+            <h1 class="tittle2 series">Series  </h1>
+            <div class="row row-middle">
+                <div class="square s6" id="s6"></div>
+                <div class="square s7" id="s7"></div>
+                <div class="square s8" id="s8"></div>
+                <div class="square s9" id="s9"></div>
+                <div class="square s10" id="s10"></div>
+            </div>
+
+            <h1 class="tittle2 ultimasP">Ultimas publicaciones </h1>
+            <div class="row row-bottom">
+                <div class="square s11" id="s11"></div>
+                <div class="square s12" id="s12"></div>
+                <div class="square s13" id="s13"></div>
+                <div class="square s14" id="s14"></div>
+                <div class="square s15" id="s15"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+
+        <h1 class="h-footer">CineSphera</h1>
+        <div class="linea-footer"></div>
+        <p> Copyright &copy; 2024 CineSphera. Todos los derechos reservados.</p>
+        <p> CineSphera es una marca registrada de Los Cabros </p>
+        <div class="linea-footer"></div>
+        
+
+
+    </footer>
+</body>
+
+</html>
